@@ -1,0 +1,39 @@
+.Candy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4b1a6;
+    width: 20rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.Candy-back a {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    color: #cb644f;
+
+}
+
+.Candy-back a:hover {
+    font-weight: bold;
+    color: #d0cb9c;
+}
+
+.Candy-back a.active {
+    font-weight: bold;
+    color: #d0cb9c;
+}
+
+h1 {
+    color: #cb644f;
+}
+
+h3 {
+    color: #cb644f;
+}

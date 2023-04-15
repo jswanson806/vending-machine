@@ -1,0 +1,46 @@
+.VendingMachine {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4b1a6;
+    width: 30rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.VendingMachine-selection {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #d4b1a6;
+    width: 10rem;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.VendingMachine-nav-links a {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    color: #cb644f;
+
+}
+
+.VendingMachine-nav-links a:hover {
+    font-weight: bold;
+    color: #d0cb9c;
+}
+
+.VendingMachine-nav-links a.active {
+    font-weight: bold;
+    color: #d0cb9c;
+}
+
+h2 {
+    color: #cb644f;
+}
